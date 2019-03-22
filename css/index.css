@@ -104,14 +104,16 @@ a:hover {
     text-decoration: none
 }
 
-
+.out{
+    background-image: linear-gradient(0deg, #355770 0%, #5d5d79 100%);
+}
 
 .container {
     display: inline-block;
     width: 100%;
-    min-height: 1024px;
-    background: url('../images/bg.png') no-repeat;
-    background-size: cover;
+    min-height: 978px;
+    /* background: url('../images/bg.png') no-repeat; */
+    /* background-size: cover; */
     margin: 0 auto;
 }
 
@@ -123,6 +125,7 @@ header {
 .content {
     margin: 0 auto;
     max-width: 1190px;
+    
 }
 
 .header-icon {
