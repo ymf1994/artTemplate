@@ -1,0 +1,279 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+    font-weight: 100;
+    font-style: normal
+}
+
+ul,
+ol,
+li {
+    list-style-type: none
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+
+.container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg.png') no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+header {
+    height: 68px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+.header-icon {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 168.7px;
+    height: 26.3px;
+    margin: 20px 0;
+}
+
+.Bl-type {
+    width: 100%;
+    background: rgba(54, 59, 85, 0.60);
+    box-shadow: 0 5px 10px 3px rgba(12, 25, 46, 0.50);
+    border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    min-height: 218px;
+}
+
+.Al-type {
+    /* min-height: 218px; */
+}
+
+.tool-type {
+    /* min-height: 218px; */
+}
+
+.type-title {
+    text-align: center;
+    font-family: PingFangSC-Semibold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-top: 26px;
+    margin-bottom: 32px;
+}
+
+.Bl-type-ul li {
+    display: inline-block;
+    width: 364px;
+    height: 116px;
+    background: #4C526D;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 24px;
+    margin-bottom: 20px;
+
+}
+
+li:hover {
+
+    cursor: pointer;
+    background-image: linear-gradient(-90deg, #3CCAD4 0%, #782CCC 100%);
+
+}
+
+li:hover .enter {
+    background: #FFFFFF;
+    color: #713ECD;
+    font-family: PingFangSC-Semibold;
+}
+
+.Bl-type-ul li .icon {
+    position: absolute;
+    text-align: center;
+    left: 16px;
+    top: 30px;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: linear-gradient(0deg, #FF6464 0%, #FFDA59 99%);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.50);
+}
+
+.Al-type-ul li .icon {
+    background-image: linear-gradient(0deg, #5684CF 0%, #ACA1EB 100%);
+}
+
+.tool-type-ul li .icon {
+    background-image: linear-gradient(0deg, #FE4678 0%, #FF7958 99%);
+}
+
+.Bl-type-ul li .icon img {
+    width: 23px;
+    margin-top: 16px;
+    margin-left: 3px;
+    height: 24px;
+}
+
+.new {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: 38px;
+    height: 38px;
+    background: url('../images/new.png') no-repeat;
+    background-size: contain;
+}
+
+.system-name {
+    width: 180px;
+    margin-top: 27px;
+    margin-left: 80px;
+    margin-bottom: 8px;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.39px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.describe {
+    margin-left: 80px;
+    text-align: left;
+    width: 200px;
+    height: 54px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.60);
+    letter-spacing: 0.26px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.enter {
+    text-align: center;
+    position: absolute;
+    top: 43px;
+    right: 16px;
+    margin-left: 288px;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background: #636A85;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}

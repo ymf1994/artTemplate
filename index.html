@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>产品首页</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="out">
+
+        <div class="container">
+            <header>
+                <div class="header-icon">
+                    <img src="./images/ziyuelogo.png" alt="子曰数据">
+                </div>
+            </header>
+            <div class="content">
+                <section>
+                    <div class="Bl-type">
+                        <h3 class="type-title">Bl类产品</h3>
+                        <ul class='Bl-type-ul' id="Bl-ul">
+                        </ul>
+                    </div>
+                    <div class=" Bl-type Al-type">
+                        <h3 class="type-title">Al类产品</h3>
+                        <ul class='Bl-type-ul Al-type-ul' id="Al-ul">
+                        </ul>
+                    </div>
+                    <div class="Bl-type tool-type">
+                        <h3 class="type-title">工具类产品</h3>
+                        <ul class="Bl-type-ul tool-type-ul" id="tool-ul">
+                        </ul>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <script src='./js/template-web.js'></script>
+    <script src='./js/jquery-3.3.1.min.js'>
+    </script>
+    </script>
+    <script src="./js/methods.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+    <script id="list-data" type='text/html'>
+        <li>
+                <span class="icon">
+                    {{if iconAddress}}
+                    <img src="{{iconAddress}}" alt="">
+                    {{else}}
+                        {{if type==0}}
+                    <img src="./images/BI.png" alt="">
+                    {{else if type==1}}
+                    <img src="./images/AI.png" alt="">
+                    {{else}}
+                    <img src="./images/tools.png" alt="">
+                    {{/if}}
+                    {{/if}}
+                </span>
+                {{if isNew==1}}
+                <span class='new'></span>
+                {{/if}}
+                <h4 class='system-name'>{{name}}</h4>
+                <p class='describe'>{{description}}</p>
+                <a  class='enter' href='{{address}}'>进入</a>
+            </li>
+          
+    </script>
+</body>
+
+</html>

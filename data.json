@@ -1,0 +1,148 @@
+{
+    "success": true,
+    "code": "SYSTEM_ERROR",
+    "message": "系统异常，请联系管理员！",
+    "resultList": [{
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统111",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 1,
+            "sortOrder": 1,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统222",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 10,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统222",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 10,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统222",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 10,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统222",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 10,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统222",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 10,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "画像分析系统333",
+            "address": "https://www.baidu.com",
+            "iconAddress": "",
+            "isNew": 0,
+            "sortOrder": 19,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 1,
+            "type": 1,
+            "name": "画像分析系统",
+            "address": "",
+            "iconAddress": "",
+            "sortOrder": 1,
+            "isNew": 1,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分asdass"
+        },
+        {
+            "id": 1,
+            "isNew": 0,
+            "type": 1,
+            "name": "画像分析系统",
+            "address": "",
+            "iconAddress": "",
+            "sortOrder": 3,
+            "description": "基于学生标签库，老师标大手大脚爱神的箭ad打算打扫签库，内容啊大大打打adad爱迪生标签库对目标进行画像分析的系统"
+        }, {
+            "id": 1,
+            "type": 2,
+            "name": "画像分析系统",
+            "address": "",
+            "isNew": 0,
+            "iconAddress": "",
+            "sortOrder": 2,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进大安s打打打卡上的开奖号机会大好的看书看打卡机啊徽省打卡就啊啥大行画像分析的系统"
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "name": "智能组卷",
+            "address": "",
+            "iconAddress": "",
+            "sortOrder": 1,
+            "isNew": 0,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "name": "权限管理平台",
+            "address": "",
+            "isNew": 1,
+            "iconAddress": "",
+            "sortOrder": 3,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "name": "权限管理平台",
+            "address": "",
+            "isNew": 1,
+            "iconAddress": "",
+            "sortOrder": 3,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "name": "权限管理平台",
+            "address": "",
+            "isNew": 1,
+            "iconAddress": "",
+            "sortOrder": 3,
+            "description": "基于学生标签库，老师标签库，内容标签库对目标进行画像分析的系统"
+        }
+       
+    ],
+    "ncode": 1000002
+}
